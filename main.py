@@ -26,7 +26,7 @@ def bid_dynamics(budget=50000, T=1000, k=1.5):
 	plt.show()
 
 def auction_sim(min_cost=0.1):
-	data_dir = '/Users/maxspringer/Documents/GitHub/learning_bid/Data/rtb_video/'
+	data_dir = ''
 	d = pd.read_csv(os.path.join(data_dir, "ad_bid_data.txt"), sep="\t", header=None)
 
 	min_cost = 0.1
